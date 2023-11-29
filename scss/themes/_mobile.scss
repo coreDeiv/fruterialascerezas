@@ -1,0 +1,26 @@
+@media only screen and (max-width: 640px) {
+	#cherry-float-menu {
+		margin-top: 7rem;
+		.cherry-container-second-nav {
+			display: none !important;
+		}
+	}
+	#cherry-trifeature {
+		margin-bottom: -30px;
+		.row {
+			flex-direction: column;
+			padding: 1rem;
+			.col-12 {
+				border-left: none !important;
+				border-right: none !important;
+			}
+		}
+	}
+	header {
+		.navbar-brand.logo {
+			img {
+				max-height: unset;
+			}
+		}
+	}
+}
