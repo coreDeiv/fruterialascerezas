@@ -5,6 +5,7 @@
   --cerezas-dark-color: #000000;
 }
 
+/* SIzes for media queries */
 #cherry-float-menu {
   margin-top: 2rem;
 }
@@ -26,13 +27,7 @@
   width: 50%;
   max-width: 400px;
   background: none;
-  -webkit-box-shadow: 0 15px 13px #333;
-  -moz-box-shadow: 0 15px 13px #333;
   box-shadow: 0 15px 13px #333;
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
   transform: rotate(-2deg);
 }
 #cherry-float-menu .cherry-container-second-nav::after {
@@ -45,18 +40,12 @@
   width: 50%;
   max-width: 400px;
   background: none;
-  -webkit-box-shadow: 0 15px 13px #333;
-  -moz-box-shadow: 0 15px 13px #333;
   box-shadow: 0 15px 13px #333;
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
   transform: rotate(2deg);
   right: 20px;
   left: auto;
 }
-#cherry-float-menu .cherry-container {
+#cherry-float-menu .cherry .cherry-container {
   display: block;
   width: 100%;
   height: auto;
